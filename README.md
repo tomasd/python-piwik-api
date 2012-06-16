@@ -14,6 +14,8 @@ Just append full method name with parameters after PiwikAPI object.
 PIWIK_URL = 'http://demo.piwik.org/'
 PIWIK_TOKEN = '53983b97138c69b72b0a32bbfeedc213'
 
+from piwikapi import PiwikAPI
+
 piwik = PiwikAPI(PIWIK_URL, PIWIK_TOKEN)
 piwik.SitesManager.getAllSites()
 piwik.UsersManager.getUser(userLogin='tomas4')
