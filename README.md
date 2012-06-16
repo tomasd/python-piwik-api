@@ -1,6 +1,5 @@
-python-piwik-api
+Python PiwikAPI
 ================
-# Python PiwikAPI
 
 This API is a wrapper around Piwik REST interface. By calling api methods, http 
 requests are created dynamically.
@@ -19,3 +18,6 @@ piwik = PiwikAPI(PIWIK_URL, PIWIK_TOKEN)
 piwik.SitesManager.getAllSites()
 piwik.UsersManager.getUser(userLogin='tomas4')
 ```
+
+## Installation
+$ pip install git+git://github.com/tomasd/python-piwik-api.git
